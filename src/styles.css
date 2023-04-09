@@ -18,16 +18,25 @@ footer {
 .carousel {
   padding: 15px 0px;
 }
-
-.about-image {
-  width: 300px;
+.btn-secondary {
+  text-align: center;
+  display: inline;
 }
 
 .who-is-sbs {
   padding: 0px 100px 0px 100px;
 }
 
-.btn-secondary {
-  text-align: center;
-  display: inline;
+.about-image {
+  width: 500px;
+  border-radius: 50% / 30%;
+}
+
+.about-content {
+  padding: 0px 30px 0px 30px;
+}
+
+.walkita-logo {
+  max-width: 100%;
+  width: 300px;
 }
