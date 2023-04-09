@@ -1,10 +1,19 @@
 h1,
 h2 {
-  color: red;
+  color: rgb(0, 140, 255);
+  text-align: center;
+}
+
+.body {
+  margin: 0 auto;
 }
 
 .navbar-logo {
   width: 70px;
+}
+
+.hero {
+  padding: 100px 20px;
 }
 
 .about-image {
