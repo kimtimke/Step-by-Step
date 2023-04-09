@@ -3,19 +3,31 @@ h2 {
   color: rgb(0, 140, 255);
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
 
-.body {
-  margin: 0 auto;
+footer {
+  padding-top: 200px;
 }
 
 .navbar-logo {
   width: 70px;
 }
 
-.hero {
-  padding: 100px 20px;
+.carousel {
+  padding: 15px 0px;
 }
 
 .about-image {
   width: 300px;
+}
+
+.who-is-sbs {
+  padding: 0px 100px 0px 100px;
+}
+
+.btn-secondary {
+  text-align: center;
+  display: inline;
 }
