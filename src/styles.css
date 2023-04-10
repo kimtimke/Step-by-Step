@@ -40,3 +40,23 @@ footer {
   max-width: 100%;
   width: 300px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.grid img {
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.gallery-image,
+.gallery-image-potrait {
+  max-width: 100%;
+}
+
+.gallery-image-potrait {
+  width: 300px;
+}
