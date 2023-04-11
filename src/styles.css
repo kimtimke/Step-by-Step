@@ -1,23 +1,35 @@
 h1,
 h2 {
-  color: rgb(0, 140, 255);
   text-align: center;
 }
+
 a {
   text-decoration: none;
 }
 
-footer {
-  padding-top: 200px;
+.navbar-logo,
+.footer-sbs-logo {
+  width: 70px;
 }
 
-.navbar-logo {
-  width: 70px;
+.navbar-walkita-logo {
+  width: 100px;
+}
+
+.homepage-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/droneview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
 }
 
 .carousel {
   padding: 15px 0px;
 }
+
 .btn-secondary {
   text-align: center;
   display: inline;
@@ -25,6 +37,12 @@ footer {
 
 .who-is-sbs {
   padding: 0px 100px 0px 100px;
+}
+
+footer {
+  color: rgb(16, 15, 15);
+  background-color: rgb(196, 216, 255);
+  border-radius: 5%;
 }
 
 .about-image {
