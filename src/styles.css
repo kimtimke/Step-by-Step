@@ -7,6 +7,23 @@ a {
   text-decoration: none;
 }
 
+footer {
+  color: rgb(16, 15, 15);
+  background-color: rgba(196, 216, 255, 0.353);
+  border-radius: 5%;
+  padding: 50px 0px 50px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.sbs-primary-section {
+  background-color: #f8f8f8;
+}
+
 .navbar-logo,
 .footer-sbs-logo {
   width: 70px;
@@ -35,28 +52,23 @@ a {
   display: inline;
 }
 
-.who-is-sbs {
-  padding: 0px 100px 0px 100px;
-}
-
-footer {
-  color: rgb(16, 15, 15);
-  background-color: rgb(196, 216, 255);
-  border-radius: 5%;
-}
-
 .about-image {
-  width: 500px;
+  width: 300px;
   border-radius: 50% / 30%;
 }
 
 .about-content {
   padding: 0px 30px 0px 30px;
+  text-align: center;
 }
 
 .walkita-logo {
   max-width: 100%;
   width: 300px;
+}
+.about-main {
+  background-color: #f8f8f8;
+  border-radius: 4px;
 }
 
 .grid {
@@ -77,4 +89,9 @@ footer {
 
 .gallery-image-potrait {
   width: 300px;
+}
+
+.contact-image {
+  width: 300px;
+  border-radius: 50% / 50%;
 }
