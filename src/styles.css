@@ -1,3 +1,12 @@
+:root {
+  --primary-font: "Gantari", sans-serif;
+}
+
+body {
+  display: block;
+  font-family: var(--primary-font);
+}
+
 h1,
 h2 {
   text-align: center;
@@ -41,6 +50,13 @@ section.sbs-primary-section {
   color: white;
   text-align: center;
   padding: 200px 0;
+}
+.custom-container {
+  max-width: none;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .carousel {
