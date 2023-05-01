@@ -1,5 +1,6 @@
 :root {
   --primary-font: "Gantari", sans-serif;
+  --secondary-color: #365469;
 }
 
 body {
@@ -18,7 +19,7 @@ a {
 
 footer {
   color: rgb(16, 15, 15);
-  background-color: rgba(196, 216, 255, 0.353);
+  background-color: var(--secondary-color);
   border-radius: 5%;
   padding: 50px 0px 50px;
 }
