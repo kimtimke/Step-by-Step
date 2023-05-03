@@ -44,7 +44,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
@@ -60,8 +60,28 @@
               <li class="nav-item">
                 <a class="nav-link" href="./stepbystep.html">SBS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./walkita.html">Walkita</a>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="./walkita.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Walkita
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Origin</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Description</a></li>
+
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Gallery</a>
+                  </li>
+                </ul>
               </li>
 
               <li class="nav-item dropdown">
@@ -75,8 +95,19 @@
                   Services
                 </a>
                 <ul class="dropdown-menu">
+                  <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="./walkita.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Face-to-Face
+                </a>
                   <li>
-                    <a class="dropdown-item" href="#">Face-to-Face</a>
+                    <a class="dropdown-item" href="#">Formal Programs</a>
+                  </li>
                   </li>
                   <li><a class="dropdown-item" href="#">Online</a></li>
                 </ul>
@@ -89,110 +120,131 @@
         </div>
       </nav>
     </div>
-    <div class="custom-container">
-      <div>
-        <header class="homepage-header">
-          <h1 class="text-center">Enhancing</h1>
 
-          <h2 class="text-center">Namibian business Performance</h2>
-          <h2 class="text-center">Through Skills Development</h2>
-        </header>
-      </div>
+    <div>
+      <header class="homepage-header">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <h1>Enhancing</h1>
+            <h2>Namibian business Performance</h2>
+            <h2>Through Skill Development</h2>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="./images/swkframewalkita.jpg"
+              class="img-fluid swk-frame-image-homepage"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
+    </div>
 
-      <main>
-        <section class="sbs-primary-section">
-          <div class="container">
-            <h2>Step-by-Step Business Solutions</h2>
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <img
-                  src="./images/sbs-logo-transparent.png"
-                  class="main-sbs-logo img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-6">
-                <p class="who-is-sbs">
-                  SBS („Step-By-Step“) Business Solutions (Namibia) is a
-                  portfolio of business solutions developed by Hans – Werner
-                  Timke with the objective to enhance Namibian business
-                  performance through skills development. We seek to uplift
-                  Namibian leadership skills by reducing the risk of them „not
-                  knowing what they don‘t know“. Improved business understanding
-                  and strategy planning are also objectives.
-                </p>
-              </div>
+    <main>
+      <section class="sbs-primary-section">
+        <div class="container">
+          <h2>Step-by-Step Business Solutions</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img
+                src="./images/sbs-logo-transparent.png"
+                class="main-sbs-logo img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6">
+              <p class="who-is-sbs">
+                SBS („Step-By-Step“) Business Solutions (Namibia) is a portfolio
+                of business solutions developed by Hans – Werner Timke with the
+                objective to enhance Namibian business performance through
+                skills development. We seek to uplift Namibian leadership skills
+                by reducing the risk of them „not knowing what they don‘t know“.
+                Improved business understanding and strategy planning are also
+                objectives.
+              </p>
             </div>
           </div>
+        </div>
 
+        <div class="text-center">
+          <a href="./about.html">
+            <button type="button" class="btn btn-secondary">Learn more</button>
+          </a>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="walkita-secondary-section">
+        <div class="container">
+          <h2 class="mb-3">What is a WalkiTa?</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p>
+                STEP BY STEP Business Solutions (SBS) is about taking one step
+                at a time to enhance skills which in turn support improved
+                business performance. Being able to “take steps“ means we can
+                move forward, explore new opportunities, grow people and
+                profits.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./images/walkita-hwtlogotransparent.png"
+                class="main-walkita-logo img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
           <div class="text-center">
-            <a href="./about.html">
+            <a href="./walkita.html">
               <button type="button" class="btn btn-secondary">
                 Learn more
               </button>
             </a>
           </div>
-        </section>
+        </div>
+      </section>
+    </main>
 
-        <section class="walkita-secondary-section">
-          <div class="container">
-            <h2 class="mb-3">What is a WalkiTa?</h2>
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <p>
-                  STEP BY STEP Business Solutions (SBS) is about taking one step
-                  at a time to enhance skills which in turn support improved
-                  business performance. Being able to “take steps“ means we can
-                  move forward, explore new opportunities, grow people and
-                  profits.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <img
-                  src="./images/walkita-hwtlogotransparent.png"
-                  class="main-walkita-logo img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="text-center">
-              <a href="./walkita.html">
-                <button type="button" class="btn btn-secondary">
-                  Learn more
-                </button>
-              </a>
-            </div>
+    <footer>
+      <div class="container footer-content">
+        <div class="row">
+          <div class="col text-center">
+            <img src="/images/sbslogo.png" class="footer-sbs-logo" />
+
+            <img
+              src="/images/walkitalogo.png"
+              class="footer-walkita-logo"
+              alt=""
+            />
           </div>
-        </section>
-      </main>
-
-      <footer>
-        <div class="container footer-content">
-          <div class="row">
-            <div class="col text-center">
-              <img src="/images/sbslogo.png" class="footer-sbs-logo" />
-
-              <img
-                src="/images/walkitalogo.png"
-                class="footer-walkita-logo"
-                alt=""
-              />
-            </div>
-            <div class="col">
-              <p>
-                <small>
-                  Step-By-Step „SBS“ Business solutions P.O. Box 2944,
-                  SWAKOPMUND NAMIBIA
-                </small>
-                <small> Cell: + 264 81 344 8545 Email: h-w.timke@gmx.de </small>
-              </p>
-            </div>
-            <div class="col">
-              <p>Walkita</p>
-            </div>
+          <div class="col">
+            <p>
+              <small>
+                Step-By-Step „SBS“ Business solutions P.O. Box 2944, SWAKOPMUND
+                NAMIBIA
+              </small>
+              <small> Cell: + 264 81 344 8545 Email: h-w.timke@gmx.de </small>
+            </p>
+          </div>
+          <div class="col">
+            <p>Walkita</p>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

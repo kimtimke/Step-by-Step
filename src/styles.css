@@ -44,13 +44,23 @@ section.sbs-primary-section {
 }
 
 .homepage-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(
+      rgba(75, 73, 73, 0.491),
+      rgba(69, 67, 67, 0.484)
+    ),
     url(../images/droneview.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+
+  color: rgb(252, 246, 246);
   text-align: center;
-  padding: 200px 0;
+  padding: 20px 0;
+}
+
+.swk-frame-image-homepage {
+  width: 550px;
+  border-radius: 5%;
+  box-shadow: -1px 4px 71px rgba(0, 0, 0, 0.3);
 }
 
 .carousel {
