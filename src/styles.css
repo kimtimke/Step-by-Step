@@ -8,10 +8,6 @@ body {
   font-family: var(--primary-font);
 }
 
-h1 {
-  text-align: center;
-}
-
 a {
   text-decoration: none;
 }
@@ -33,6 +29,13 @@ section.sbs-primary-section {
   background-color: #f8f8f8;
 }
 
+.container-navbar {
+  background: #f8f8f8;
+}
+.navbar {
+  padding: 0 35px !important;
+}
+
 .navbar-logo,
 .footer-sbs-logo {
   width: 70px;
@@ -42,18 +45,30 @@ section.sbs-primary-section {
   width: 100px;
 }
 
-.homepage-header {
-  background-image: linear-gradient(
-      rgba(75, 73, 73, 0.491),
-      rgba(69, 67, 67, 0.484)
-    ),
-    url(../images/droneview.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero-banner-image {
+  margin: 80px 115px;
+  width: 60%;
+}
 
-  color: rgb(252, 246, 246);
-  text-align: center;
-  padding: 20px 0;
+.hero-banner-image img {
+  width: 100%;
+  margin-bottom: -80px;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner-title {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+.hero-banner-title h1 {
+  background: rgb(54, 84, 105, 0.75);
+  color: #fff;
+  line-height: 70px;
+  padding: 0px 10px 0 10px;
 }
 
 .swk-frame-image-homepage {
