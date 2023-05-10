@@ -29,6 +29,27 @@ section.sbs-primary-section {
   background-color: #f8f8f8;
 }
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  left: 100%;
+  top: 0;
+  margin-top: -1px;
+}
+
+.dropdown-submenu .dropdown-toggle::after {
+  /* content: "\203A"; */
+  display: inline-block;
+  margin-left: 0.5rem;
+  transform: rotate(-90deg);
+}
+
+.dropdown-submenu.show .dropdown-toggle::after {
+  transform: rotate(-80deg);
+}
+
 .container-navbar {
   background: #f8f8f8;
 }
