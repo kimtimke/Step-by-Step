@@ -27,7 +27,7 @@
     <title>Step-by-Step</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-navbar">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
@@ -91,56 +91,84 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Services</a
                 >
-                <ul
-                  class="dropdown-menu"
+                  Services
+                </a>
+                <div
+                  class="dropdown-menu mega-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <li>
-                    <a class="dropdown-item" href="#">Service 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Service 2</a>
-                  </li>
-                  <li class="dropdown-submenu">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      onclick="return false;"
-                      >Service 3</a
-                    >
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="#">Sub-Service 1</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Sub-Service 2</a>
-                      </li>
-                      <li class="dropdown-submenu">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          onclick="return false;"
-                          >Sub-Service 3</a
-                        >
-                        <ul class="dropdown-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <h6 class="dropdown-header">Face-to-Face</h6>
+                        <ul class="list-unstyled">
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#"
+                              >Formal Programs</a
+                            >
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >SBS 90D BIP</a
+                                >
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >SBS 30D Health-check</a
+                                >
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >SBS Modular training</a
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#"
+                              >Ad-hoc Solutions</a
+                            >
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >Strategy facilitation & development</a
+                                >
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >Financial Reviews</a
+                                >
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#"
+                                  >Idea/Prospect/Business Case evaluation</a
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4">
+                        <h6 class="dropdown-header">Online</h6>
+                        <ul class="list-unstyled">
                           <li>
                             <a class="dropdown-item" href="#"
-                              >Sub-Sub-Service 1</a
+                              >Interactive support</a
                             >
                           </li>
                           <li>
                             <a class="dropdown-item" href="#"
-                              >Sub-Sub-Service 2</a
+                              >E-books, Courses</a
                             >
                           </li>
                         </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
@@ -149,7 +177,6 @@
         </div>
       </nav>
     </div>
-
     <script src="app.js"></script>
   </body>
 </html>

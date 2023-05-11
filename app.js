@@ -1,32 +1,72 @@
-// Prevent nested dropdown menu from closing when clicked
-document.querySelectorAll(".dropdown-menu").forEach(function (element) {
-  element.addEventListener("click", function (e) {
-    e.stopPropagation();
+// Close other dropdowns when a dropdown item is clicked
+const dropdownItems = document.querySelectorAll(".dropdown-item");
+dropdownItems.forEach(function (item) {
+  item.addEventListener("click", function (e) {
+    const dropdownMenu = item.closest(".dropdown-menu");
+    if (dropdownMenu) {
+      e.preventDefault();
+      e.stopPropagation();
+      dropdownMenu.classList.add("show");
+    }
+    const dropdownMenus = document.querySelectorAll(".dropdown-menu");
+    dropdownMenus.forEach(function (menu) {
+      if (menu !== dropdownMenu) {
+        menu.classList.remove("show");
+      }
+    });
   });
 });
 
-// Enable nested dropdown menu toggle
-document
-  .querySelectorAll(".dropdown-submenu .dropdown-toggle")
-  .forEach(function (element) {
-    element.addEventListener("click", function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-
-      const parentMenu = this.closest(".dropdown-submenu");
-      const submenu = parentMenu.querySelector(".dropdown-menu");
+// Show submenu when clicking on a dropdown item with a submenu
+const dropdownItemsWithSubmenu = document.querySelectorAll(
+  ".dropdown-item.dropdown-toggle"
+);
+dropdownItemsWithSubmenu.forEach(function (item) {
+  item.addEventListener("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const submenu = item.nextElementSibling;
+    if (submenu) {
       submenu.classList.toggle("show");
-    });
-  });
+      item.classList.toggle("active");
 
-// Collapse submenus when clicking outside
-document.addEventListener("click", function (e) {
-  const submenus = document.querySelectorAll(
-    ".dropdown-submenu .dropdown-menu"
+      // Add code to remove active class from other dropdown items
+      const dropdownItems = document.querySelectorAll(
+        ".dropdown-item.dropdown-toggle"
+      );
+      dropdownItems.forEach(function (dropdownItem) {
+        if (dropdownItem !== item) {
+          dropdownItem.classList.remove("active");
+        }
+      });
+    }
+  });
+});
+
+// Close submenu when mouse leaves the parent item
+const dropdownMenus = document.querySelectorAll(".dropdown-menu");
+dropdownMenus.forEach(function (menu) {
+  menu.addEventListener("mouseleave", function () {
+    menu.classList.remove("show");
+    const parentItem = menu.parentElement.querySelector(
+      ".dropdown-item.dropdown-toggle"
+    );
+    if (parentItem) {
+      parentItem.classList.remove("active");
+    }
+  });
+});
+
+// Close submenu when clicking outside
+document.addEventListener("click", function (event) {
+  const dropdownItems = document.querySelectorAll(
+    ".dropdown-item.dropdown-toggle"
   );
-  submenus.forEach(function (submenu) {
-    if (!submenu.contains(e.target)) {
+  dropdownItems.forEach(function (item) {
+    const submenu = item.nextElementSibling;
+    if (!item.contains(event.target) && !submenu.contains(event.target)) {
       submenu.classList.remove("show");
+      item.classList.remove("active");
     }
   });
 });
