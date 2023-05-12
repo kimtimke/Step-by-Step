@@ -1,4 +1,21 @@
 // Show submenu on hover for the "Walkita" dropdown item
+
+// Show submenu on hover for the "Services" dropdown item
+const servicesDropdown = document.querySelector(".services");
+const servicesDropdownMenu = servicesDropdown.querySelector(".dropdown-menu");
+let isServicesMenuOpen = false;
+
+servicesDropdown.addEventListener("mouseenter", function () {
+  servicesDropdownMenu.classList.add("show");
+  isServicesMenuOpen = true;
+});
+
+servicesDropdown.addEventListener("mouseleave", function () {
+  if (!isServicesMenuOpen) {
+    servicesDropdownMenu.classList.remove("show");
+  }
+});
+
 const walkitaDropdown = document.querySelector(".walkita");
 const walkitaDropdownMenu = walkitaDropdown.nextElementSibling;
 let isWalkitaMenuOpen = false;
