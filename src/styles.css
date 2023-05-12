@@ -65,6 +65,7 @@ section.sbs-primary-section {
 .hero-banner-image img {
   width: 100%;
   margin-bottom: -80px;
+  border-radius: 2%;
 }
 
 .hero-banner {
@@ -74,7 +75,7 @@ section.sbs-primary-section {
 .hero-banner-title {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 10%;
 }
 .hero-banner-title h1 {
   background: rgb(54, 84, 105, 0.75);
@@ -83,12 +84,19 @@ section.sbs-primary-section {
   padding: 0px 10px 0 10px;
 }
 
-.swk-frame-image-homepage {
-  width: 550px;
-  border-radius: 5%;
-  box-shadow: -1px 4px 71px rgba(0, 0, 0, 0.3);
+.hero-banner-overlay-image {
+  position: absolute;
+  top: calc(100% + 10px); /* adjust the spacing as needed */
+  right: 0;
+  z-index: 2;
 }
 
+.hero-banner-overlay-image img {
+  width: 80%; /* adjust the size as needed */
+  top: -100%;
+  left: -10%;
+  border-radius: 2%;
+}
 .timeline {
   position: relative;
   max-width: 1200px;
