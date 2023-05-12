@@ -1,12 +1,30 @@
+// Show submenu on hover for the "Walkita" dropdown item
+const walkitaDropdown = document.querySelector(".walkita");
+const walkitaDropdownMenu = walkitaDropdown.nextElementSibling;
+let isWalkitaMenuOpen = false;
+
+walkitaDropdown.addEventListener("mouseenter", function () {
+  walkitaDropdownMenu.classList.add("show");
+  isWalkitaMenuOpen = true;
+});
+
+walkitaDropdownMenu.addEventListener("mouseleave", function () {
+  walkitaDropdownMenu.classList.remove("show");
+  isWalkitaMenuOpen = false;
+});
+
+walkitaDropdown.addEventListener("click", function (e) {
+  e.preventDefault();
+  window.location.href = walkitaDropdown.getAttribute("href");
+});
+
 // Close other dropdowns when a dropdown item is clicked
 const dropdownItems = document.querySelectorAll(".dropdown-item");
 dropdownItems.forEach(function (item) {
   item.addEventListener("click", function (e) {
     const dropdownMenu = item.closest(".dropdown-menu");
     if (dropdownMenu) {
-      e.preventDefault();
       e.stopPropagation();
-      dropdownMenu.classList.add("show");
     }
     const dropdownMenus = document.querySelectorAll(".dropdown-menu");
     dropdownMenus.forEach(function (menu) {
