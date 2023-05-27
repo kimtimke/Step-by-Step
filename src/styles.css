@@ -15,7 +15,7 @@ a {
 footer {
   color: rgb(16, 15, 15);
   background-color: var(--secondary-color);
-  border-radius: 5%;
+
   padding: 50px 0px 50px;
 }
 
@@ -97,6 +97,21 @@ section.sbs-primary-section {
   left: -10%;
   border-radius: 2%;
 }
+.main-sbs-logo,
+.main-walkita-logo {
+  width: 400px;
+}
+.homepage-about-image-container {
+  text-align: center;
+}
+
+.homepage-about-image-container img {
+  text-align: center;
+  border: 10px none #885df1;
+  border-radius: 250px;
+  width: 200px;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -228,8 +243,8 @@ section.sbs-primary-section {
 }
 
 .about-image {
-  width: 300px;
-  border-radius: 50% / 30%;
+  width: 200px;
+  border-radius: 50% / 50%;
 }
 
 .about-content {
@@ -246,12 +261,13 @@ section.sbs-primary-section {
   border-radius: 4px;
 }
 
-.grid {
+.grid,
+.gallery-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
-.grid img {
+.grid .gallery-images img {
   object-fit: cover;
   border-radius: 8px;
   transition: all 150ms ease-in-out;
