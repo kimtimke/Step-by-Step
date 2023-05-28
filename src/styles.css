@@ -28,6 +28,7 @@ section {
 section.sbs-primary-section {
   background-color: #f8f8f8;
 }
+/*----- navigation bar ------*/
 
 .dropdown-menu.mega-menu {
   width: 400px; /* Adjust the width as needed */
@@ -56,6 +57,8 @@ section.sbs-primary-section {
 .navbar-walkita-logo {
   width: 100px;
 }
+
+/*----- index.html Hero ------*/
 
 .hero-banner-image {
   margin: 80px 115px;
@@ -111,6 +114,34 @@ section.sbs-primary-section {
   border-radius: 250px;
   width: 200px;
 }
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-container .row {
+  display: flex;
+}
+
+.services-container .services-col {
+  flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.services-container .bigger {
+  flex-grow: 2;
+}
+
+/* Change this to .row.row2 instead of .row .row2 */
+.services-container .row {
+  display: flex;
+}
+
+/*----- about.html  ------*/
 
 .timeline {
   position: relative;
