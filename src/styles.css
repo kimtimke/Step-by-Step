@@ -25,6 +25,31 @@ section {
   padding: 50px 100px;
 }
 
+/*----- Footer ------*/
+
+.footer-heading {
+  padding-left: 50px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-list li {
+  display: flex;
+  align-items: center;
+}
+
+.footer-list li i {
+  margin-right: 10px;
+}
+
+.footer-sbs-logo {
+  padding-bottom: 10px;
+  width: 120px;
+}
+
 /*----- navigation bar ------*/
 
 .dropdown-menu.mega-menu {
@@ -46,8 +71,7 @@ section {
   padding: 0 35px !important;
 }
 
-.navbar-logo,
-.footer-sbs-logo {
+.navbar-logo {
   width: 70px;
 }
 
@@ -169,7 +193,7 @@ section {
 }
 
 .service-col {
-  max-width: 32%;
+  flex-basis: 32%;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
@@ -417,7 +441,7 @@ section {
   /*---index Intro text---*/
 
   .intro-homepage {
-    padding: 320px 10px;
+    padding: 320px 10px 45px;
   }
   /*---index Services---*/
   .service-col {
@@ -433,7 +457,6 @@ section {
     width: 75%;
     position: relative;
     top: -100%;
-
     transform: translateX(17%);
   }
 
@@ -441,6 +464,9 @@ section {
 
   .homepage-about-section {
     padding: 20px;
+  }
+  .homepage-about-image-container img {
+    width: 150px;
   }
 
   .timeline {
@@ -472,5 +498,13 @@ section {
     border-right: 15px solid #f8f8f8;
     border-left: 0;
     left: -15px;
+  }
+  .footer-center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-center-column h5 {
+    display: none;
   }
 }
