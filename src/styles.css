@@ -423,9 +423,33 @@ section {
   width: 300px;
 }
 
+/*----- contact.html  ------*/
+.container-contact {
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.contact-boxes {
+  position: relative;
+  top: -50px;
+  right: 0;
+  z-index: 2;
+}
+
 .contact-image {
   width: 300px;
   border-radius: 50% / 50%;
+}
+
+.contact-container {
+  background: rgba(54, 84, 105, 0.9);
+  padding: 40px 0 40px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-paragraph {
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 900px) {
