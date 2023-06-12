@@ -397,10 +397,18 @@ section {
   text-align: center;
 }
 
+/*----- walkita.html  ------*/
+
 .walkita-logo {
   max-width: 100%;
   width: 300px;
+
+  position: relative;
+  top: -135px;
+  right: -18px;
+  z-index: 2;
 }
+
 .about-main {
   background-color: #f8f8f8;
   border-radius: 4px;
