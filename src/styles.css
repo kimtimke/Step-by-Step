@@ -462,6 +462,7 @@ section {
 
 .contact-paragraph {
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .contact-email-link {
@@ -595,5 +596,10 @@ section {
 
   .contact-image {
     top: 238px;
+  }
+
+  .slogan {
+    font-size: 40px;
+    color: #212529;
   }
 }
