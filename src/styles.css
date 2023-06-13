@@ -414,6 +414,13 @@ section {
   border-radius: 4px;
 }
 
+.curved-svg-image {
+  width: 25px;
+}
+.walikta-list {
+  list-style: none;
+}
+
 .grid,
 .gallery-images {
   display: grid;
