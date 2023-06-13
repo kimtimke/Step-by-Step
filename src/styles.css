@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Gantari", sans-serif;
   --secondary-color: #365469;
+  --primary-color: #f8f8f8;
 }
 
 body {
@@ -410,7 +411,7 @@ section {
 }
 
 .about-main {
-  background-color: #f8f8f8;
+  background-color: var(--primary-color);
   border-radius: 4px;
 }
 
@@ -421,25 +422,17 @@ section {
   list-style: none;
 }
 
-.grid,
-.gallery-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+.container.image-gallery {
+  background-color: var(--primary-color);
 }
-.grid .gallery-images img {
-  object-fit: cover;
-  border-radius: 8px;
-  transition: all 150ms ease-in-out;
+.gallery-image {
+  border-radius: 10px;
+
+  transition: 0.1s all ease-in-out;
 }
 
-.gallery-image,
-.gallery-image-potrait {
-  max-width: 100%;
-}
-
-.gallery-image-potrait {
-  width: 300px;
+.gallery-image:hover {
+  transform: scale(1.03, 1.02); /* Scale up the image by 20% on hover */
 }
 
 /*----- contact.html  ------*/
