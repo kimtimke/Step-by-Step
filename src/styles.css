@@ -436,6 +436,12 @@ section {
 }
 
 /*----- contact.html  ------*/
+
+.container-step-by-step {
+  padding-bottom: 85px;
+  position: relative;
+}
+/*----- contact.html  ------*/
 .container-contact {
   padding-bottom: 150px;
   position: relative;
