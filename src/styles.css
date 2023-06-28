@@ -435,13 +435,19 @@ section {
   transform: scale(1.03, 1.02); /* Scale up the image by 20% on hover */
 }
 
+/*----- services.html  ------*/
+
+.card.services {
+  border: none;
+}
+
 /*----- contact.html  ------*/
 
 .container-step-by-step {
   padding-bottom: 85px;
   position: relative;
 }
-/*----- contact.html  ------*/
+
 .container-contact {
   padding-bottom: 150px;
   position: relative;
@@ -497,6 +503,29 @@ section {
   color: #f8f8f8;
   font-size: 50px;
   font-family: "Rock Salt", cursive;
+}
+
+.word-cloud {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyword-size-1 {
+  font-size: 16px;
+}
+
+.keyword-size-2 {
+  font-size: 20px;
+}
+
+.keyword-size-3 {
+  font-size: 24px;
+}
+
+.keyword-size-4 {
+  font-size: 28px;
 }
 
 @media screen and (max-width: 900px) {
