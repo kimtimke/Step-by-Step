@@ -205,49 +205,108 @@ section {
   box-sizing: border-box;
 }
 
-.service-col {
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
+/*----- testimonial index.html  ------*/
+
+.testimonial {
   position: relative;
+  min-height: 100vh;
+  width: 100%;
+
   overflow: hidden;
 }
-.service-col img {
+
+.testimonial::before {
+  position: absolute;
+  content: "";
+  width: 2000px;
+  height: 100%;
+  bottom: -70%;
+  border-radius: 50%;
+  background: #5580a0;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .container {
+  position: relative;
+  width: 350px;
+  color: #fff;
+  background: var(--secondary-color);
+  margin: 40px 10px;
+  padding: 30px 20px;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+.wrapper .container .profile {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
   width: 100%;
   display: block;
 }
 
-.layer {
-  background: transparent;
+.wrapper .container .profile .imgBox {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border: 8px solid #777;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.wrapper .container .profile .imgBox img {
+  position: absolute;
   height: 100%;
   width: 100%;
-  position: absolute;
   top: 0;
   left: 0;
-  transition: 0.5s ease-in-out;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+.wrapper .container .profile .imgBox:hover img {
+  filter: saturate(140%);
+  transform: scale(0.95);
 }
 
-.layer:hover {
-  background: rgb(54, 84, 105, 0.7);
-}
-
-.layer h3 {
-  width: 100%;
-  font-weight: 500;
+.wrapper .container .profile h3 {
+  padding: 5px 0;
+  text-transform: capitalize;
   color: #fff;
-  font-size: 26px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  opacity: 0;
-  transition: 0.5s;
-  cursor: pointer;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-.layer:hover h3 {
-  bottom: 49%;
-  opacity: 1;
+.wrapper .container p {
+  margin-top: 70px;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.wrapper .container .left {
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  color: #777;
+}
+
+.wrapper .container .right {
+  font-size: 30px;
+  display: block;
+  text-align: right;
+  color: #777;
+}
+
+.wrapper .container .position p {
+  margin-top: 20px;
 }
 
 /*----- about.html  ------*/
