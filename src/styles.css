@@ -474,6 +474,12 @@ section {
   text-align: center;
 }
 
+.bg-light-gray {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
 /*----- walkita.html  ------*/
 
 .walkita-logo {
