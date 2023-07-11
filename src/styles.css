@@ -457,11 +457,6 @@ section {
   left: -15px;
 }
 
-.btn-secondary {
-  text-align: center;
-  display: inline;
-}
-
 .about-image {
   width: 350px;
   border-radius: 50% 20% / 10% 40%;
@@ -521,6 +516,18 @@ section {
 
 .card.services {
   border: none;
+}
+
+.formal-programs {
+  border: 1px solid rgba(54, 84, 105, 0.1);
+  border-radius: 5px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ad-hoc-solutions {
+  border: 1px solid rgba(54, 84, 105, 0.1);
+  border-radius: 5px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
 }
 
 /*----- contact.html  ------*/
