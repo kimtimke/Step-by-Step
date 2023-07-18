@@ -530,6 +530,10 @@ section {
   box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
 }
 
+.text-call-to-action {
+  font-size: 25px;
+}
+
 /*----- contact.html  ------*/
 
 .container-step-by-step {
