@@ -534,6 +534,14 @@ section {
   font-size: 25px;
 }
 
+.blop-img {
+  z-index: -1;
+}
+
+.button {
+  font-size: 22px;
+}
+
 /*----- contact.html  ------*/
 
 .container-step-by-step {
