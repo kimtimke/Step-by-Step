@@ -512,6 +512,17 @@ section {
   transform: scale(1.03, 1.02); /* Scale up the image by 20% on hover */
 }
 
+.walkita-description {
+  background-image: url("/images/promenade.jpg");
+
+  background-size: cover; /* Set the image to cover the entire section */
+  background-repeat: no-repeat;
+}
+
+.promenade {
+  filter: brightness(65%) contrast(97%) saturate(73%) sepia(8%);
+}
+
 /*----- services.html  ------*/
 
 .card.services {
