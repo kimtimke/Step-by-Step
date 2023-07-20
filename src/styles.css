@@ -523,6 +523,22 @@ section {
   filter: brightness(65%) contrast(97%) saturate(73%) sepia(8%);
 }
 
+.walkita-card-opacity {
+  background-color: rgba(54, 84, 105, 0.9);
+}
+
+.walkita-card-text {
+  color: #cbc6c6;
+}
+
+.walkita-card-text h4 {
+  color: #0d0c0c;
+}
+.walkita-introduction,
+.walkita-gallery-intro {
+  padding: 0px 150px;
+}
+
 /*----- services.html  ------*/
 
 .card.services {
