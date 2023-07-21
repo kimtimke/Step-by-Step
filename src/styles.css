@@ -14,10 +14,11 @@ a {
 }
 
 footer {
-  color: rgb(16, 15, 15);
+  color: #f3e9e9;
   background-color: var(--secondary-color);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
   padding: 50px 0px 50px;
   top: 80px;
   position: relative;
@@ -31,19 +32,53 @@ section {
 }
 
 /*----- Footer ------*/
-
 .footer-heading {
   padding-left: 50px;
 }
+
 .footer-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .footer-list li {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-list li i {
+  margin-right: 10px;
+}
+
+.footer-sbs-logo,
+.footer-walkita-logo {
+  padding-bottom: 10px;
+  width: 120px;
+}
+
+.footer-quick-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-quick-links li {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.footer-quick-links a {
+  color: #f3e9e9;
+  text-decoration: none;
+}
+
+.footer-quick-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-heading {
+  padding-left: 50px;
 }
 
 .footer-list li i {
@@ -615,7 +650,7 @@ section {
 
 .contact-email-link {
   text-decoration: none;
-  color: #212529;
+  color: #fff;
 }
 
 .contact-email-link:hover {
