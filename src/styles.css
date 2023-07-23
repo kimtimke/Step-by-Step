@@ -89,6 +89,14 @@ section {
   padding-bottom: 10px;
   width: 120px;
 }
+.link-kim-timke {
+  color: white;
+}
+
+.link-kim-timke:hover {
+  text-decoration: underline;
+  color: #5580a0;
+}
 
 /*----- navigation bar ------*/
 .dropdown-menu.service {
