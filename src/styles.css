@@ -30,6 +30,10 @@ section {
   margin: 0 auto;
   padding: 50px 100px;
 }
+container {
+  max-width: 1000px; /* Set an appropriate value here */
+  margin: 0 auto; /* This centers the container horizontally */
+}
 
 /*----- Footer ------*/
 .footer-heading {
@@ -697,9 +701,6 @@ section {
 
 @media screen and (min-width: 900px) {
   .dropdown-menu:hover .dropdown-menu.service {
-    display: flex;
-  }
-  .dropdown-menu.service.show {
     display: flex;
   }
 }
