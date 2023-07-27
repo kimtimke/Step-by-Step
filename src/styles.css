@@ -704,7 +704,13 @@ section {
   footer {
     top: -5px;
   }
+  section {
+    padding: 0px;
+  }
 
+  .button {
+    font-size: 15px;
+  }
   .dropdown-menu.service.show {
     display: inline-block;
   }
@@ -799,13 +805,53 @@ section {
     border-left: 0;
     left: -15px;
   }
-  .footer-center-column {
+  .footer-center-column.footer-content.footer-quick-links,
+  h5 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .footer-center-column h5 {
-    display: none;
+  .footer-heading {
+    padding: 0;
+  }
+  .footer-quick-links {
+    text-align: center;
+  }
+
+  .footer-heading {
+    padding-top: 20px;
+  }
+  /*--- stepbystep.html---*/
+
+  .blop-img {
+    width: 180px;
+  }
+  .walkita-introduction {
+    padding: 0px 20px;
+  }
+  .text-call-to-action {
+    font-size: 20px;
+  }
+
+  .position-absolute.top-60.end-0.translate-middle-y.blop-img {
+    top: 50px;
+  }
+  /*--- walkita.html---*/
+
+  .walkita-logo {
+    width: 230px;
+  }
+
+  .walkita-gallery-intro {
+    padding: 0px 20px;
+  }
+
+  .walkita-description {
+    padding: 25px 25px;
+  }
+  .col-md-6.column-spacing,
+  .col-sm-6.column-spacing {
+    padding-bottom: 15px;
   }
 
   /*--- contact html---*/
