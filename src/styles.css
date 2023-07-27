@@ -7,6 +7,7 @@
 body {
   display: block;
   font-family: var(--primary-font);
+  margin: 0 auto;
 }
 
 a {
@@ -29,10 +30,6 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 50px 100px;
-}
-container {
-  max-width: 1000px; /* Set an appropriate value here */
-  margin: 0 auto; /* This centers the container horizontally */
 }
 
 /*----- Footer ------*/
@@ -119,10 +116,6 @@ container {
 .dropdown-menu.service ul {
   list-style: none;
   padding: 0;
-}
-
-.dropdown-menu.service.show {
-  display: flex;
 }
 
 .dropdown-menu.service li a {
