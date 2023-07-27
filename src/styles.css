@@ -723,22 +723,26 @@ section {
   /*---index Hero---*/
   .hero-banner-image {
     margin: 40px auto;
-    width: 60%;
+    width: 70%;
   }
   .hero-banner {
     position: absolute;
   }
 
   .hero-banner-title {
-    top: 150px;
+    top: 84px;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-banner-title h1 {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 20px;
     line-height: 20px;
+  }
+
+  .intro-homepage h2 {
+    padding-top: 5px;
   }
   .hero-banner-overlay-image {
     display: none;
@@ -836,6 +840,9 @@ section {
     font-size: 20px;
   }
 
+  .sbs-undraw-image2 {
+    display: none;
+  }
   .position-absolute.top-60.end-0.translate-middle-y.blop-img {
     top: 50px;
   }
