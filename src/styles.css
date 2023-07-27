@@ -817,6 +817,9 @@ section {
   .footer-quick-links {
     text-align: center;
   }
+  .footer-quick-links a {
+    text-decoration: underline;
+  }
 
   .footer-heading {
     padding-top: 20px;
