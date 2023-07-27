@@ -29,7 +29,6 @@ footer {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 50px 100px;
 }
 
 /*----- Footer ------*/
@@ -113,6 +112,9 @@ section {
   border: none;
 }
 
+.dropdown-menu.service.show {
+  display: flex;
+}
 .dropdown-menu.service ul {
   list-style: none;
   padding: 0;
@@ -702,6 +704,11 @@ section {
   footer {
     top: -5px;
   }
+
+  .dropdown-menu.service.show {
+    display: inline-block;
+  }
+
   .dropdown-menu.show {
     max-height: 350px;
     overflow-y: scroll;
