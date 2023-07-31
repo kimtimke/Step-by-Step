@@ -693,14 +693,127 @@ section {
 .keyword-size-4 {
   font-size: 28px;
 }
+/* CSS for Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .hero-banner-image {
+    margin: 40px 0;
+    width: 100%;
+  }
 
-@media screen and (min-width: 900px) {
-  .dropdown-menu:hover .dropdown-menu.service {
+  .hero-banner-image img {
+    margin-bottom: 0;
+  }
+
+  .hero-banner-title {
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+  }
+
+  .hero-banner-title h1 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .hero-banner-overlay-image {
+    display: none;
+  }
+
+  .hero-banner-overlay-image img {
+    width: 100%;
+  }
+
+  .main-sbs-logo,
+  .main-walkita-logo {
+    width: 250px;
+  }
+
+  .homepage-about-image-container img {
+    width: 150px;
+  }
+
+  .intro-homepage {
+    width: 90%;
+    padding-top: 5px;
+  }
+
+  .intro-homepage .intro-homepage-text,
+  .intro-homepage p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px;
+    box-shadow: none;
+  }
+
+  .intro-homepage h2 {
+    padding-top: 25px;
+  }
+
+  /* CSS for Mobile Devices (up to 767px) */
+
+  .homepage-about-section {
+    padding: 20px 20px; /* Reduce padding on mobile */
+  }
+
+  .homepage-about-image-container img {
+    width: 150px; /* Adjust the image width for better fit on mobile */
+    border: none; /* Remove border on mobile */
+    border-radius: 0; /* Remove border-radius on mobile */
+  }
+
+  .footer-heading {
+    padding-left: 0; /* Remove left padding for the footer heading on mobile */
+    text-align: center; /* Center the footer heading on mobile */
+  }
+
+  .footer-list {
+    padding-left: 0; /* Remove left padding for the list on mobile */
+  }
+
+  .footer-list li {
     display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add spacing between list items on mobile */
+    justify-content: center; /* Center the list items on mobile */
+  }
+
+  .footer-list li i {
+    margin-right: 5px; /* Reduce the spacing between the icon and text on mobile */
+  }
+
+  .footer-sbs-logo,
+  .footer-walkita-logo {
+    padding-bottom: 10px;
+    width: 100px; /* Adjust the width of the logos on mobile */
+    margin: auto; /* Center the logos on mobile */
+    display: block; /* Remove the floating behavior on mobile */
+  }
+
+  .link-kim-timke {
+    text-align: center; /* Center the link on mobile */
+    display: block; /* Remove the floating behavior on mobile */
+  }
+  .footer-quick-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-quick-links li {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .footer-quick-links a {
+    color: #f3e9e9;
+    text-decoration: none;
+  }
+  .footer-quick-links.footer-underline {
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 903px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   footer {
     top: -5px;
   }
@@ -720,38 +833,49 @@ section {
     overflow-y: scroll;
   }
 
+  .footer-list li {
+    font-size: 14px; /* Adjust the font size of list items on tablets */
+  }
+
   /*---index Hero---*/
   .hero-banner-image {
-    margin: 40px auto;
-    width: 70%;
-  }
-  .hero-banner {
-    position: absolute;
+    width: 80%;
   }
 
   .hero-banner-title {
-    top: 84px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 29%;
   }
 
   .hero-banner-title h1 {
-    font-size: 15px;
-    padding: 5px 20px;
-    line-height: 20px;
+    line-height: 60px;
+    left: 29%;
   }
 
-  .intro-homepage h2 {
-    padding-top: 5px;
-  }
-  .hero-banner-overlay-image {
+  .hero-banner-overlay-image img {
     display: none;
   }
 
-  /*---index Intro text---*/
+  .main-sbs-logo,
+  .main-walkita-logo {
+    width: 300px;
+  }
 
-  .intro-homepage {
-    padding: 320px 10px 45px;
+  .homepage-about-image-container img {
+    width: 180px;
+  }
+
+  .intro-homepage .intro-homepage-text,
+  .intro-homepage p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .intro-homepage h2 {
+    padding-top: 1px;
+  }
+  .homepage-about-section {
+    padding: 20px 40px; /* Slightly reduce padding on tablets */
   }
   /*---index Services---*/
   .service-col {
