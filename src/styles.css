@@ -699,6 +699,16 @@ section {
   .hero-banner-overlay-image {
     display: none;
   }
+  .hero-banner-title {
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+  }
+
+  .hero-banner-title h1 {
+    line-height: 40px;
+    font-size: 25px;
+  }
 }
 
 /* CSS for Mobile Devices (up to 767px) */
