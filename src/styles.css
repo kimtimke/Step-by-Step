@@ -564,6 +564,10 @@ section {
   box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
 }
 
+.walkita-description {
+  padding: 0px 30px;
+}
+
 .walkita-card-text {
   color: #fff;
 }
@@ -874,7 +878,17 @@ section {
   }
   /* contact.html */
   .slogan {
-    color: black;
+    color: rgb(23, 23, 23);
+  }
+  .contact-image {
+    display: none;
+  }
+  .contact-container {
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .col-md.space-top-bottom {
+    padding: 15px 20px;
   }
   /* footer.html */
 
@@ -1089,20 +1103,24 @@ section {
 
   /*--- contact html---*/
 
-  .space-top-bottom {
-    padding: 10px 0px;
-  }
-
-  .contact-container {
-    padding: 20px 0 20px;
-  }
-
   .contact-image {
-    top: 238px;
+    height: 155%;
+    z-index: -1;
+  }
+  .contact-container {
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
+    padding: 40px 40px;
   }
 
+  .col-md.space-top-bottom {
+    padding-bottom: 10px;
+  }
+  .space-top {
+    padding-top: 70px;
+  }
   .slogan {
     font-size: 40px;
     color: #fff;
+    margin-top: 50px;
   }
 }
