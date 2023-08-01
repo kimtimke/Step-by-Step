@@ -730,6 +730,10 @@ section {
     font-size: 16px;
   }
 
+  .line-heading {
+    content: "";
+  }
+
   .dropdown-menu.service.show {
     display: inline-block;
   }
@@ -773,6 +777,9 @@ section {
 
   .homepage-about-image-container img {
     width: 150px;
+  }
+  .founder {
+    display: none;
   }
 
   .intro-homepage {
