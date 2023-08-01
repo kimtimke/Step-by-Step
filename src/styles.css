@@ -698,6 +698,12 @@ section {
   font-size: 28px;
 }
 
+/* CSS for portrait images */
+.image-gallery .portrait {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (orientation: landscape) {
   /* Add styles for landscape orientation here */
   .hero-banner-overlay-image {
@@ -725,13 +731,19 @@ section {
   footer {
     top: -5px;
   }
+  .image-gallery .column-spacing {
+    margin-bottom: 20px;
+  }
+
+  /* Adjust image size on smaller screens */
+  .image-gallery .gallery-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 
   .button {
     font-size: 16px;
-  }
-
-  .line-heading {
-    content: "";
   }
 
   .dropdown-menu.service.show {
