@@ -722,6 +722,10 @@ section {
     top: -5px;
   }
 
+  .button {
+    font-size: 16px;
+  }
+
   .dropdown-menu.service.show {
     display: inline-block;
   }
@@ -796,6 +800,82 @@ section {
     border-radius: 0; /* Remove border-radius on mobile */
   }
 
+  /* about.html */
+
+  .about-image {
+    width: 250px;
+    padding-top: 10px;
+  }
+
+  .timeline {
+    margin: 50px auto;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .container-timeline {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box {
+    font-size: 13px;
+  }
+  .text-box small {
+    margin-bottom: 10px;
+  }
+  .right-container {
+    left: 0;
+  }
+  .left-container img,
+  .right-container img {
+    left: 10px;
+  }
+  .left-container-arrow,
+  .right-container-arrow {
+    border-right: 15px solid #f8f8f8;
+    border-left: 0;
+    left: -15px;
+  }
+
+  /*--- stepbystep.html---*/
+
+  .blop-img {
+    width: 180px;
+  }
+  .walkita-introduction {
+    padding: 0px 20px;
+  }
+  .text-call-to-action {
+    font-size: 20px;
+  }
+
+  .sbs-undraw-image2 {
+    display: none;
+  }
+  .position-absolute.top-60.end-0.translate-middle-y.blop-img {
+    top: 50px;
+  }
+  /* walkita.html */
+  .walkita-logo {
+    width: 250px;
+  }
+
+  .walkita-description {
+    padding: 0px 10px 0px 10px;
+  }
+  .col-md-6.column-spacing,
+  .col-sm-6.column-spacing {
+    padding-bottom: 15px;
+  }
+
+  .walkita-gallery-intro {
+    padding: 0px 40px;
+  }
+  /* contact.html */
+  .slogan {
+    color: black;
+  }
   /* footer.html */
 
   .footer-heading {
