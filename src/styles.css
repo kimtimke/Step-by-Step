@@ -799,9 +799,7 @@ section {
   }
 
   .homepage-about-image-container img {
-    width: 150px; /* Adjust the image width for better fit on mobile */
-    border: none; /* Remove border on mobile */
-    border-radius: 0; /* Remove border-radius on mobile */
+    display: none;
   }
 
   /* about.html */
