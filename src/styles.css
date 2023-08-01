@@ -709,6 +709,11 @@ section {
     line-height: 40px;
     font-size: 25px;
   }
+  .hero-banner-image {
+    margin: 40px 0;
+    width: 80%;
+    padding-left: 150px;
+  }
 }
 
 /* CSS for Mobile Devices (up to 767px) */
