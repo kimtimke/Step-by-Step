@@ -695,6 +695,9 @@ section {
 }
 /* CSS for Mobile Devices (up to 767px) */
 @media screen and (max-width: 767px) {
+  footer {
+    top: -5px;
+  }
   .hero-banner-image {
     margin: 40px 0;
     width: 100%;
@@ -761,42 +764,22 @@ section {
     border-radius: 0; /* Remove border-radius on mobile */
   }
 
-  .footer-heading {
-    padding-left: 0; /* Remove left padding for the footer heading on mobile */
-    text-align: center; /* Center the footer heading on mobile */
-  }
+  /* footer.html */
 
+  .footer-heading {
+    padding: 20px 0px 0px;
+  }
   .footer-list {
     padding-left: 0; /* Remove left padding for the list on mobile */
-  }
-
-  .footer-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Add spacing between list items on mobile */
-    justify-content: center; /* Center the list items on mobile */
   }
 
   .footer-list li i {
     margin-right: 5px; /* Reduce the spacing between the icon and text on mobile */
   }
 
-  .footer-sbs-logo,
-  .footer-walkita-logo {
-    padding-bottom: 10px;
-    width: 100px; /* Adjust the width of the logos on mobile */
-    margin: auto; /* Center the logos on mobile */
-    display: block; /* Remove the floating behavior on mobile */
-  }
-
   .link-kim-timke {
     text-align: center; /* Center the link on mobile */
     display: block; /* Remove the floating behavior on mobile */
-  }
-  .footer-quick-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   .footer-quick-links li {
@@ -810,6 +793,13 @@ section {
   }
   .footer-quick-links.footer-underline {
     text-align: center;
+  }
+
+  .footer-quick-links a {
+    text-decoration: underline;
+  }
+  .footer-center-column {
+    margin-left: 50px;
   }
 }
 
@@ -933,25 +923,22 @@ section {
     border-left: 0;
     left: -15px;
   }
-  .footer-center-column.footer-content.footer-quick-links,
-  h5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   .footer-heading {
-    padding: 0;
+    padding: 1px 1px;
+    padding-top: 2px;
   }
-  .footer-quick-links {
-    text-align: center;
+
+  .footer-list {
+    padding-left: 1px;
   }
   .footer-quick-links a {
     text-decoration: underline;
   }
-
-  .footer-heading {
-    padding-top: 20px;
+  .footer-walkita-logo.footer-sbs-logo {
+    justify-content: center;
   }
+
   /*--- stepbystep.html---*/
 
   .blop-img {
