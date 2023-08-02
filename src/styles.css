@@ -734,6 +734,13 @@ section {
   .image-gallery .column-spacing {
     margin-bottom: 20px;
   }
+  .card.services {
+    max-width: 80%; /* Adjust the value to your preference */
+  }
+
+  .card-title h5 {
+    font-size: 20px;
+  }
 
   /* Adjust image size on smaller screens */
   .image-gallery .gallery-image {
@@ -893,6 +900,12 @@ section {
   .walkita-gallery-intro {
     padding: 0px 40px;
   }
+
+  /* services.html */
+  .image-undraw-thought-process {
+    width: 100%;
+  }
+
   /* contact.html */
   .slogan {
     color: rgb(23, 23, 23);
