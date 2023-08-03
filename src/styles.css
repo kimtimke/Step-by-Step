@@ -240,13 +240,6 @@ section {
 .intro-homepage h2 {
   padding-top: 45px;
 }
-.section-line {
-  display: block;
-  content: "";
-  border-top: 1px solid rgb(154, 142, 142);
-  margin: 10px auto;
-  width: 80%;
-}
 
 .line-heading {
   display: block;
@@ -715,14 +708,6 @@ section {
 
   .card-title h5 {
     font-size: 20px;
-  }
-
-  .line-heading {
-    display: block;
-    content: "";
-    border-top: 2px solid rgb(81, 128, 177);
-    margin: 10px auto;
-    width: 5%;
   }
 
   /* Adjust image size on smaller screens */
