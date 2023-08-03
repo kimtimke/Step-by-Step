@@ -704,28 +704,6 @@ section {
   height: auto;
 }
 
-@media screen and (orientation: landscape) {
-  /* Add styles for landscape orientation here */
-  .hero-banner-overlay-image {
-    display: none;
-  }
-  .hero-banner-title {
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -25%);
-  }
-
-  .hero-banner-title h1 {
-    line-height: 40px;
-    font-size: 25px;
-  }
-  .hero-banner-image {
-    margin: 40px 0;
-    width: 80%;
-    padding-left: 150px;
-  }
-}
-
 /* CSS for Mobile Devices (up to 767px) */
 @media screen and (max-width: 767px) {
   footer {
@@ -737,6 +715,14 @@ section {
 
   .card-title h5 {
     font-size: 20px;
+  }
+
+  .line-heading {
+    display: block;
+    content: "";
+    border-top: 2px solid rgb(81, 128, 177);
+    margin: 10px auto;
+    width: 5%;
   }
 
   /* Adjust image size on smaller screens */
