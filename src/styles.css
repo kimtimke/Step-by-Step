@@ -89,14 +89,6 @@ section {
   padding-bottom: 10px;
   width: 120px;
 }
-.link-kim-timke {
-  color: white;
-}
-
-.link-kim-timke:hover {
-  text-decoration: underline;
-  color: #5580a0;
-}
 
 /*----- navigation bar ------*/
 .dropdown-menu.service {
@@ -648,6 +640,24 @@ section {
   color: #fff;
 }
 
+.link-kim-timke {
+  color: white;
+}
+
+.link-kim-timke:hover {
+  text-decoration: underline;
+  color: #6f8393;
+}
+
+.linkedin-link {
+  color: #fff;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ccd3df;
+}
 .contact-email-link {
   text-decoration: none;
   color: #fff;
@@ -950,6 +960,10 @@ section {
 
   .footer-list li {
     font-size: 14px; /* Adjust the font size of list items on tablets */
+  }
+
+  .link-kim-timke {
+    text-decoration: underline;
   }
 
   /*---index Hero---*/
