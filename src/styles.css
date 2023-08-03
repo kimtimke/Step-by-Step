@@ -876,7 +876,8 @@ section {
 
   /* contact.html */
   .slogan {
-    color: rgb(23, 23, 23);
+    text-shadow: 8px -1px 7px rgba(73, 71, 71, 0.6);
+    color: rgba(73, 71, 71);
   }
   .contact-image {
     display: none;
